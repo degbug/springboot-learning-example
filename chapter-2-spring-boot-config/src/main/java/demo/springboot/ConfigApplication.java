@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableSwagger2Doc // 开启 Swagger
 @SpringBootApplication
 public class ConfigApplication {
+    //对应教程地址，https://www.bysocket.com/technique/2135.html
     public static void main(String[] args) {
         SpringApplication.run(ConfigApplication.class, args);
     }
